@@ -15,8 +15,8 @@ model = joblib.load(model_path)
 encoder_path = os.path.join(os.path.dirname(__file__), 'encoder.pkl')
 OHE = joblib.load(encoder_path)
 
-st.title("🤖 MACHINE LEARNING APP")
-st.info("This app builds a ML model to predict the House Prices")
+st.title("🤖 House Price Predictor")
+st.info("This app implements a ML model to predict the House Prices")
 
 # Streamlit UI
 st.sidebar.title("Input Features")
