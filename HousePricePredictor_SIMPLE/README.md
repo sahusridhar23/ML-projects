@@ -1,27 +1,27 @@
-# 🏠 House Price Prediction Web App
+# House Price Prediction Web App
 
 This project uses a **Linear Regression** model to predict house prices based on selected features such as `LotArea`, `SaleCondition`, `SaleType`, `OverallQual`, `YearBuilt`, and `GarageType`.  
 It is deployed as an interactive **Streamlit** web application.
 
 ---
 
-## 🔍 Overview
+## Overview
 
-🎯 **Goal**: Predict house prices using user-provided inputs.  
-🤖 **Model Used**: Linear Regression  
-🌐 **Framework**: Streamlit – used to create an interactive and responsive web application  
-🧠 **Backend/ML**: Python, Scikit-learn  
-📊 **Dataset**: [Ames House Prices Dataset](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data)
-
----
-
-## 🚀 Live Demo
-
-🔗 [Click here to try the app](https://housepricepredictorsimple.streamlit.app/)
+ **Goal**: Predict house prices using user-provided inputs.  
+ **Model Used**: Linear Regression  
+ **Framework**: Streamlit – used to create an interactive and responsive web application  
+ **Backend/ML**: Python, Scikit-learn  
+ **Dataset**: [Ames House Prices Dataset](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data)
 
 ---
 
-## 🛠️ How It Works
+## Live Demo
+
+[Click here to try the app](https://housepricepredictorsimple.streamlit.app/)
+
+---
+
+## How It Works
 
 1. User provides house features via the web form.
 2. Categorical variables are encoded using `encoder.pkl`.
@@ -30,13 +30,13 @@ It is deployed as an interactive **Streamlit** web application.
 
 ---
 
-## 📷 Screenshots
+## Screenshots
 
 ![WebApp screenshot](WebApp_ss.png)
 
 ---
 
-## 🌟 Project Highlights
+## Project Highlights
 
 - [x] Exploratory Data Analysis (EDA)  
 - [x] Data Preprocessing  
@@ -48,7 +48,7 @@ It is deployed as an interactive **Streamlit** web application.
 
 ---
 
-## 📔 Model Summary
+## Model Summary
 
 - **Model Used**: Linear Regression  
 - **Features Used**:  
@@ -56,7 +56,7 @@ It is deployed as an interactive **Streamlit** web application.
 
 ---
 
-## 📈 Model Performance
+## Model Performance
 
 | Metric | Value        |
 |--------|--------------|
@@ -66,9 +66,9 @@ It is deployed as an interactive **Streamlit** web application.
 
 ---
 
-## 🙋‍♂️ Author
+## Author
 
 **Sridhar Sahu**  
 This is my first machine learning project with deployment. I'm currently exploring the intersection of ML and web development.
 
-🔗 [Portfolio / GitHub](https://github.com/sahusridhar23)
+[Portfolio / GitHub](https://github.com/sahusridhar23)
