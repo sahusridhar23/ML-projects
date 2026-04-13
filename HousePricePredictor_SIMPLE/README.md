@@ -21,6 +21,56 @@ It is deployed as an interactive **Streamlit** web application.
 
 ---
 
+## Setup
+
+Follow these steps to run the project locally.
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/sahusridhar23/my-GSoC-Journey.git
+cd my-GSoC-Journey/Week_05/Streamlit/HousePricePredictor_SIMPLE
+```
+
+### 2. Create a virtual environment (recommended)
+
+**Windows**
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+**Mac / Linux**
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Ensure model files are present
+
+The following files must exist in the same directory:
+
+```
+app_beta.py  
+LR_HPP.pkl  
+encoder.pkl  
+requirements.txt
+```
+
+### 5. Run the Streamlit app
+
+```bash
+streamlit run app_beta.py
+```
+
 ## How It Works
 
 1. User provides house features via the web form.
