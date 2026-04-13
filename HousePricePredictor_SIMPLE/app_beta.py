@@ -10,9 +10,12 @@ from sklearn.linear_model import LinearRegression
 
 # Load model
 
-model_path = os.path.join(os.path.dirname(__file__), 'LR_HPP.pkl')
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+model_path = os.path.join(BASE_DIR, "LR_HPP.pkl")
+encoder_path = os.path.join(BASE_DIR, "encoder.pkl")
+
 model = joblib.load(model_path)
-encoder_path = os.path.join(os.path.dirname(__file__), 'encoder.pkl')
 OHE = joblib.load(encoder_path)
 
 st.title("🤖 House Price Predictor")
