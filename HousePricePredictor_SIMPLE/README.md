@@ -17,7 +17,7 @@ It is deployed as an interactive **Streamlit** web application.
 
 ## Live Demo
 
-[Click here to try the app](https://housepricepredictorsimple.streamlit.app/)
+[Click here to try the app](https://housepricepredictorbeta.streamlit.app/)
 
 ---
 
